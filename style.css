@@ -1,0 +1,45 @@
+body{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+}
+form{
+    background-color: wheat;
+    padding: 100px;
+    color: white;
+
+}
+input,select,button{
+    background-color: grey;
+    color: white;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: transparent;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+}
+
+input::placeholder{
+    color: whitesmoke;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 300;
+}
+
+input:focus{
+    border: none;
+    padding: 5px;
+    box-sizing: content-box;
+    transition: 0.1s;
+}
+
+h1{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="test">hi</div>
+<body>
+    <table id="table" border="2">
+        <tr>
+            <th id="nameth">Name:</th>
+            <th id="phoneth">Phone Number:</th>
+            <th id="serviceth">service</th>
+            <th id="StartTimeth">StartTime</th>
+        </tr>
+        <tr id="appendtr">
+            
+        </tr>
+    </table>
+    <form id="bookingForm">
+        <h1>BOOK NOW</h1>
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="number" id="phone" placeholder="number required"> <br>
+        <input type="datetime-local" name="" id="startService" required><br>
+        <select name="select" id="booking-type">
+            <option value="">Service</option>
+            <option value="bald">bald</option>
+            <option value="mohawk">mohawk</option>
+            <option value="galaxy">galaxy</option>
+            <option value="low_cut">low_cut</option>
+        </select><br>
+        <button id="submitbtn" type="submit" value="Book">BOOK</button>
+    </form>
+    
+</body>
+</html>
