@@ -1,0 +1,23 @@
+
+body{
+    margin: 0 auto;
+    background-color: #171717;
+    font-family: poppins;
+    color:#FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    
+}
+form{
+    
+}
+
+.greeting{
+    text-align: center;
+    color: #3ECF8E;
+    text-transform: capitalize;
+}
