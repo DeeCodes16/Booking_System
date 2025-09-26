@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet"> <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> <!-- Google Font -->
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" ></script>
+        <link rel="stylesheet" href="adminSignup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+<body>
+    <h1>Create an account</h1>
+    <div class="formCont">
+        <form action="">
+            <h1>Sign Up</h1>
+        <div class="cont">
+            <div class="names">
+                <input type="text" class="nameInput" placeholder="First name">
+                <input type="text" class="nameInput" placeholder="Last name">
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="" class="emailInput" placeholder="Enter your email">
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="" class="emailInput" placeholder="Password">
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" name="" class="phoneInput" value="+234" id="">
+            </div>
+            <div class="submitcont">
+                <input type="submit" class="submitInput" value="Create an account">
+            </div>
+        </div>
+        <div class="signline"><p>---OR SIGN IN WITH---</p></div>
+        <div class="signin">
+            <button id="googleLogin" class="google-btn">
+  <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo">
+</button>
+        </div> 
+    </form>
+    </div>
+    
+     <script src="adminSignup.js"></script>   
+</body>
+</html>
