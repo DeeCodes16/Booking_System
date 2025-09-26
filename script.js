@@ -12,6 +12,15 @@ let startService = document.getElementById("startService")
 let table = document.getElementById("table")
 
 
+const user = JSON.parse(localStorage.getItem("currentUser"));
+
+    if (user) {
+      document.getElementById("greeting").textContent = `Hello, ${user.firstN}! 👋`;
+    } else {
+      // If no user, redirect back to login
+      window.location.href = "login.html";
+    }
+
 submitbtn.addEventListener("click", (e)=>{
     e.preventDefault()
     addBooking()
