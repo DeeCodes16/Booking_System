@@ -39,7 +39,7 @@ async function logInfo() {
     localStorage.setItem("currentUser", JSON.stringify(data[0]));
 
     // Redirect to welcome page
-    window.location.href = "../index.html";
+    window.location.href = "../Onboarding/onboarding.html";
   }
 }
 

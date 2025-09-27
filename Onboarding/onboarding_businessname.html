@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet"> <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> <!-- Google Font -->
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" ></script>
+    <link rel="stylesheet" href="onboarding_businessname.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="onboarding_businessname.js" defer></script>
+</head>
+<body>
+     <nav class="progbar">
+            <ul style="display: flex; gap:10px; ">
+                <li style="background-color: #3ECF8E;"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav> <br> <br>
+    <div class="container">
+
+        
+        <form id="form" action="">
+            <i style="color: grey;">*Acccount setup*</i> 
+            <h2 style="font-size: 2.5rem; line-height: 0;" >What's your business name?</h2>
+            <div class="Bname-box">
+                <p style="color: grey; line-height: 1; font-weight: bolder;">This is the brand name your clients will see. </p> <br>
+                <label style="color: #3ECF8E; font-size: 1.2rem; font-weight: bold; line-height: 2;" for="Bname">Business name</label><br>
+                <input name="Bname" class="Bname" type="text" required>
+            </div><br>
+            <div class="Webname-box">
+                <label style="color: #3ECF8E; font-size: 1.2rem; font-weight: bold; line-height: 2;" for="Bname">Website 
+                    <i style="color: grey;">(optional)</i> </label><br>
+                <input name="Webname" class="Webname" type="text" placeholder="www.example.com">
+            </div>
+
+        <div class="next">
+            <button type="submit" class="arrow-button">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        </form>
+
+        <button id="sub">sub</button>
+    </div> 
+    
+
+   
+    
+    
+</body>
+</html>

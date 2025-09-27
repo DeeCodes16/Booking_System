@@ -1,0 +1,94 @@
+
+body{
+    margin: 0 auto;
+    background-color: #171717;
+    font-family: Poppins;
+    color:#FAFAFA;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+   /* border: 1px solid;*/
+}
+
+.greeting{
+    text-align: center;
+    color: #3ECF8E;
+    text-transform: capitalize;
+}
+
+.Bname, .Webname{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+    border: 0.1px solid  grey;
+    border-radius: 7px;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: medium;
+    line-height: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 0.2px;
+}
+
+.Bname:focus, .Webname:focus{
+    outline: none;
+    border: 0.1px solid white;
+    border-width: 0.2px;
+}
+
+.Bname::placeholder, .Webname::placeholder{
+    color: grey;
+    text-transform: none;
+}
+.Bname:required{
+    content: "Business name is required";
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+li{
+    width: 250px;
+    height: 4px;
+    background-color: white;
+    list-style: none;
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.arrow-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #3ECF8E ;
+            color: black;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            
+            font-size: 18px;
+}
+
